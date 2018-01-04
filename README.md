@@ -53,7 +53,7 @@ REDIS_PASSWORD=redis
 保存退出。  
 ### 然后生成用户认证等。
 ```
-php artisan session:table //生成session table
+php artisan session:table //生成session table,不执行也可
 php artisan make:auth //生成用户认证，这步会生成2个迁移文件
 php artisan migrate //执行迁移，完成后会在数据库中新增4张表，2张用户认证，一张session，一张迁移管理
 chmod -R 777 storage // storage目录给予可写权限，省事操作777

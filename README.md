@@ -77,4 +77,5 @@ docker-compose up -d nginx
  - 点击register,填入资料，提交，页面会跳转到/home并提示You are logged in! 
  - 点击右上角用户名选择logout,跳回到laravel首页。
  - 进入redis容器，如果指令中不带密码，务必首先执行auth xxx。然后keys *,如果输出内容中有带'laravel_cache'说明redis有发挥作用
+ - 访问8081端口，显示百度首页
 

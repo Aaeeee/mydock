@@ -9,7 +9,7 @@ docker-compose up -d nginx mysql redis
 ```
 ### 然后进行redis/mysql/laravel配置，首先redis设置密码
 ```
-docker-compose exec redis redis
+docker-compose exec redis redis-cli
 //首先确认redis是否为无密码状态
 set aa 'aa' //返回OK,表示当前redis没有使用密码
 config set requirepass redis //设置密码为redis,返回结果为OK

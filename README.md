@@ -5,7 +5,7 @@ laravel项目在mydock同级mydock_app下，名称为mylaravel,数据库名称�
 
 ### 创建容器：在项目根目录下执行
 ```
-cp env-example .env 配置文件
+cp env-example .env //配置文件
 docker-compose up -d nginx mysql redis
 ```
 ### 然后进行redis/mysql/laravel配置，首先redis设置密码

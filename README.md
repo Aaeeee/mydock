@@ -3,7 +3,7 @@
 laravel项目在mydock同级mydock_app下，名称为mylaravel,数据库名称为mylaravel,root密码为root,redis密码为redis.  
 大部分操作在容器内进行.
 
-### 创建容器：在项目根目录下执行
+### 创建容器：在docker-compoer.yml同级目录下执行
 ```
 cp env-example .env //配置文件
 docker-compose up -d nginx mysql redis
